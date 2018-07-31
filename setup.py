@@ -2,11 +2,11 @@ from setuptools import find_packages
 from setuptools import setup
 
 
-VERSION = '0.38'
+VERSION = '0.38.2'
 
 
 setup(
-    name='python-taint',
+    name='python-taint-smk',
     packages=find_packages(exclude=(['tests*'])),
     version=VERSION,
     include_package_data=True,

@@ -23,6 +23,14 @@ If you love PyT, please star our project on GitHub to show your support! :star:
 [@xxxx]: https://github.com/xxxx
 -->
 
+# Unreleased (python-taint-smk at https://github.com/bcaller/pyt)
+
+##### 0.38.2
+* Fix for `Assignment not properly handled` on `x, y = z`
+
+##### 0.38.1
+* Fix for RuntimeError with curried function calls like `f(g(a)(b)(c))`
+
 # 0.38
 ##### August 2nd, 2018
 
